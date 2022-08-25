@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3020",
+    "dev": "next dev -p 3030",
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
@@ -12,7 +12,8 @@
   "dependencies": {
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "eslint": "8.22.0",
